@@ -6,10 +6,10 @@ class Beachcomber < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/NavistAu/beachcomber/releases/download/v0.1.1/beachcomber-v0.1.1-aarch64-apple-darwin.tar.gz"
-    sha256 "f85e2c8290ec151b4f9af9610bef5f5ae66e6930e992aabde859b7650f68fa38"
+    sha256 "70728ce122fac8e50cffe26652ce1ebbd51038477b10626eefd5cad7c2e7213f"
   else
     url "https://github.com/NavistAu/beachcomber/releases/download/v0.1.1/beachcomber-v0.1.1-x86_64-apple-darwin.tar.gz"
-    sha256 "3218cd7c3641481a7bafce256b630a5650161238af395c739171db6d00bec6ec"
+    sha256 "7ce2d220aa7de18b5828b8993a796dd4111c64c4c62e2a38c7ed982b7b11d5e7"
   end
 
   def install

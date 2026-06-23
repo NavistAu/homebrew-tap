@@ -1,15 +1,15 @@
 class Beachcomber < Formula
   desc "Daemon that caches shell environment state for instant prompt rendering"
   homepage "https://github.com/NavistAu/beachcomber"
-  version "0.6.1"
+  version "0.7.0"
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/NavistAu/beachcomber/releases/download/v0.6.1/beachcomber-v0.6.1-aarch64-apple-darwin.tar.gz"
-    sha256 "942ab581dd569613fb1fbb7246be92d02a743058a0dae8674cd2c5d06bba717e"
+    url "https://github.com/NavistAu/beachcomber/releases/download/v0.7.0/beachcomber-v0.7.0-aarch64-apple-darwin.tar.gz"
+    sha256 "be92fe923988e14410efe92e41e797e70a3528873b574180ff8a9dae4e2eca60"
   else
-    url "https://github.com/NavistAu/beachcomber/releases/download/v0.6.1/beachcomber-v0.6.1-x86_64-apple-darwin.tar.gz"
-    sha256 "2908d762ecad3846c80191fc3dcb77fdaa18cf25ed8a874d4a200337adb7e1d4"
+    url "https://github.com/NavistAu/beachcomber/releases/download/v0.7.0/beachcomber-v0.7.0-x86_64-apple-darwin.tar.gz"
+    sha256 "7b23a5389c380bd560760f28551905c5f2789a37fe7b51b0a828a07d6ccdb3dc"
   end
 
   def install
